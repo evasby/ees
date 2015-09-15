@@ -1,11 +1,4 @@
-﻿$font: proximanova;
-$bold: proximanova_bold;
-$light: proximanova_light;
-$italic: proximanova_italic;
-$cond: proximanova_cond;
-$boldit: proximanova_bold_italic;
-$lightit: proximanova_light_italic;
-$min_width: 1000px;
+﻿$roboto: roboto;
 @import "mymix";
 @import "fonts";
 //**********************************************************/
@@ -13,8 +6,10 @@ $min_width: 1000px;
 body{
   //font-family: $font;
   //font-size: $font_size18;
-  min-width: $min_width;
+  //min-width: $min_width;
   //position: relative;
+  font-family: arial;
+  color: #190c06;
 }
 textarea{
   resize: none;
@@ -30,10 +25,10 @@ button, input[type="reset"], input[type="button"], input[type="submit"] {
   @include def-border-radius(0px);
 }
 strong, b{
-  font-family: $bold;
+  //font-family: $bold;
 }
 i{
-  font-family: $italic;
+  //font-family: $italic;
 }
 a{
   //@include link(#373737, #373737);
@@ -176,6 +171,13 @@ textarea{
 }
 //**********************************************************/
 //**********************************************************/
+@import "dev";
+@import "clearfix";
 @import "placeholder";
+@import "inner";
+@import "inner-internal";
 @import "mybreadcrumb";
+@import "menu-top";
 @import "user-content";
+@import "header";
+@import "footer";

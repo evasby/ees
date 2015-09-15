@@ -1,34 +1,26 @@
 .footer{
-  background-color: #373737;
-  &_bottom{
+  background-color: #1b0c04;
+  p{
+    color: #ffffff;
   }
-  &_wrap{
-    @include clearfix();
-    position: relative;
-  }
-  &_up{
-    position: absolute;
-    top: 9px;
-    right: 128px;
-    display: block;
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    width: 49px;
-    height: 49px;
-    background: url('../image/up.jpg') no-repeat;
-    @include def-opacity(0.5);
-    &:hover{
-      @include def-opacity(1);
+  &_copy{
+    float: left;
+    padding: 45px 67px 0px 20px;
+    p{
+      font-size: 12px;
     }
   }
-  &_section{
+  &_phone{
     float: left;
+    p{
+      font-size: 20px;
+      font-family: $roboto;
+    }
   }
-  &_copyright{
-    color: #ffffff;
-    font-size: $font_size12;
-    margin: 34px 0px 24px 0px;
+  &_mail{
     float: left;
+    p{
+      font-size: 16px;
+    }
   }
 }
