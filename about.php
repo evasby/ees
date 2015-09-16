@@ -3,7 +3,7 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta charset="UTF-8">
-  <title>EES - Главная</title>
+  <title>EES - О компании</title>
   <link rel="stylesheet" href="css/all.css" type="text/css" />
   <link rel="stylesheet" href="dist/animate.css" type="text/css"/>
   <!--[if lt IE 9]>
@@ -85,6 +85,13 @@
         </ul>
       </div>
     </nav>
+    
+    <div class="inner-internal">
+      <div class="mybreadcrumb">
+        <a class="mybreadcrumb_link" href="/main.php">Главная</a>
+        <span class="mybreadcrumb_item">О компании</span>
+      </div>
+    </div>
 
     <div class="inner-internal clearfix">
       <aside class="s-left">

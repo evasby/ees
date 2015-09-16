@@ -1,0 +1,67 @@
+.menu-top{
+  background-color: #1b0c04;
+  &_list{
+    @include clearfix();
+    &__l2{
+      background-color: #1b0c04;
+      position: absolute;
+      left: 0px;
+      top: 45px;
+      max-height: 0px;
+      visibility: hidden;
+      @include def-opacity(0.5);
+      @include def-transition(all, 0.2s, 0.5s);
+      @include old-ie{
+        visibility: visible;
+        display: none;
+      }
+    }
+  }
+  &_item{
+    float: left;
+    padding: 12px 0px 12px 0px;
+    position: relative;
+    &:first-child a{
+      border: none;
+    }
+    &__l2{
+      &:first-child a{
+        border: none;
+      }
+    }
+    &:hover{
+      ul{
+        visibility: visible;
+        max-height: 500px;
+        @include def-transition(all, 0.2s, 0s);
+        @include def-opacity(1);
+        @include old-ie{
+          display: block;
+        }
+      }
+    }
+  }
+  &_link{
+    @include link(#ffffff, #edbba7);
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+    height: 19px;
+    padding: 2px 20px 0px 20px;
+    border-left: 1px dotted #605550;
+    &__l2{
+      @include link(#ffffff, #1b0c04);
+      font-size: 14px;
+      text-decoration: none;
+      display: block;
+      height: 22px;
+      padding: 7px 17px 0px 17px;
+      border-top: 1px dotted #605550;
+      white-space: nowrap;
+      &:hover{
+        background-color: #edbba7;
+        border-color: #edbba7;
+      }
+    }
+  }
+}

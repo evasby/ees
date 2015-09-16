@@ -1,0 +1,41 @@
+.banner-right{
+  padding: 4px;
+  background-color: #f4ece8;
+  &_item{
+    display: block;
+    padding: 23px 0px 0px 0px;
+    font-size: 13px;
+    text-decoration: none;
+    @include link(#190c06, #190c06);
+  }
+  &_inner{
+    border: 1px solid #ffffff;
+    padding: 13px;
+  }
+  &_head{
+    font-family: $robotocond;
+    font-size: 17px;
+  }
+  &_link{
+    float: right;
+    position: relative;
+    font-family: $robotocond;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 4px 13px 0px 0px;
+    @include link(#190c06, #190c06);
+    @include before{
+      display: block;
+      position: absolute;
+      right: 0px;
+      top: 5px;
+      width: 8px;
+      height: 9px;
+      background: url('../image/banner-right-arrow.png') no-repeat;
+    }
+  }
+  &_title{
+    padding: 9px 0px 0px 0px;
+  }
+}

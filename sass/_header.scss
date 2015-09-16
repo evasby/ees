@@ -1,0 +1,49 @@
+.header{
+  background: url('../image/bg-header.jpg') no-repeat 50% 50%;
+  background-size: cover;
+  &_logo{
+    display: block;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 383px;
+    height: 71px;
+    background: url(../image/logo.png) no-repeat;
+    margin: 0px 0px 24px 0px;
+  }
+  &_phone{
+    padding: 0px 0px 12px 125px;
+    position: relative;
+    p{
+      font-size: 20px;
+      font-family: $roboto;
+      margin: 0px 0px 6px 0px;
+    }
+    @include before{
+      background: url("../image/icons-header.png") 0px 0px no-repeat;
+      display: block;
+      width: 28px;
+      height: 28px;
+      position: absolute;
+      top: -2px;
+      left: 90px;
+    }
+  }
+  &_mail{
+    padding: 0px 0px 0px 125px;
+    position: relative;
+    p{
+      font-size: 14px;
+      margin: 0px 0px 2px 0px;
+    }
+    @include before{
+      background: url("../image/icons-header.png") -28px 0px no-repeat;
+      display: block;
+      width: 28px;
+      height: 28px;
+      position: absolute;
+      top: -5px;
+      left: 90px;
+    }
+  }
+}

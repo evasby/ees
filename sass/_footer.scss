@@ -1,34 +1,49 @@
 .footer{
-  background-color: #373737;
-  &_bottom{
+  background-color: #1b0c04;
+  padding: 43px 0px 48px 0px;
+  p{
+    color: #ffffff;
   }
-  &_wrap{
-    @include clearfix();
-    position: relative;
-  }
-  &_up{
-    position: absolute;
-    top: 9px;
-    right: 128px;
-    display: block;
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    width: 49px;
-    height: 49px;
-    background: url('../image/up.jpg') no-repeat;
-    @include def-opacity(0.5);
-    &:hover{
-      @include def-opacity(1);
+  &_copy{
+    float: left;
+    padding: 0px 67px 0px 20px;
+    p{
+      font-size: 12px;
     }
   }
-  &_section{
+  &_phone{
     float: left;
+    padding: 0px 38px 0px 36px;
+    position: relative;
+    p{
+      font-size: 20px;
+      font-family: $roboto;
+    }
+    @include before{
+      background: url("../image/icons-header.png") -56px 0px no-repeat;
+      display: block;
+      width: 28px;
+      height: 28px;
+      position: absolute;
+      top: -2px;
+      left: 0px;
+    }
   }
-  &_copyright{
-    color: #ffffff;
-    font-size: $font_size12;
-    margin: 34px 0px 24px 0px;
+  &_mail{
     float: left;
+    padding: 0px 0px 0px 39px;
+    position: relative;
+    p{
+      font-size: 16px;
+    }
+    @include before{
+      background: url("../image/icons-header.png") -84px 0px no-repeat;
+      display: block;
+      width: 28px;
+      height: 28px;
+      position: absolute;
+      top: -2px;
+      left: 0px;
+    }
   }
 }

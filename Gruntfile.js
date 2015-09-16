@@ -48,7 +48,7 @@ module.exports = function(grunt) {
                     options: {
                         authKey: 'key1',
                         host: 'wfs.by',
-                        dest: '/home/evasby/www/iphone.wfs.by/layout',
+                        dest: '/home/evasby/www/ees.wfs.by/layout',
                         //dest: '/home/evasby/www/iphone.wfs.by/sites/all/themes/iphone',
                         port: 21
                     },
@@ -67,7 +67,7 @@ module.exports = function(grunt) {
                     options: {
                         authKey: 'key1',
                         host: 'wfs.by',
-                        dest: '/home/evasby/www/iphone.wfs.by/layout',
+                        dest: '/home/evasby/www/ees.wfs.by/layout',
                         port: 21
                     },
                     files: [
@@ -84,7 +84,7 @@ module.exports = function(grunt) {
                     options: {
                         authKey: 'key1',
                         host: 'wfs.by',
-                        dest: '/home/evasby/www/iphone.wfs.by/layout',
+                        dest: '/home/evasby/www/ees.wfs.by/layout',
                         port: 21
                     },
                     files: [
@@ -93,6 +93,40 @@ module.exports = function(grunt) {
                             cwd: '.',
                             src: [
                                 'js/*.js'
+                            ]
+                        }
+                    ]
+                },
+                fonts: {
+                    options: {
+                        authKey: 'key1',
+                        host: 'wfs.by',
+                        dest: '/home/evasby/www/ees.wfs.by/layout',
+                        port: 21
+                    },
+                    files: [
+                        {
+                            expand: true,
+                            cwd: '.',
+                            src: [
+                                'fonts/*'
+                            ]
+                        }
+                    ]
+                },
+                dist: {
+                    options: {
+                        authKey: 'key1',
+                        host: 'wfs.by',
+                        dest: '/home/evasby/www/ees.wfs.by/layout',
+                        port: 21
+                    },
+                    files: [
+                        {
+                            expand: true,
+                            cwd: '.',
+                            src: [
+                                'dist/*'
                             ]
                         }
                     ]
