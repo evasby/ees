@@ -1,50 +1,27 @@
 .mybreadcrumb{
-	padding: 31px 0px 52px 0px;
+	padding: 0px 0px 0px 0px;
+  height: 18px;
+  margin: 0px 0px -18px 0px;
 	&_link{
-		@include link(#373737, #3498db);
+		@include link(#949494, #949494);
 		position: relative;
-		text-decoration: none;
-		font-size: 14px;
-		margin: 0px 0px 0px 23px;
-		&:before{
-			background: url("../image/bread.png") -18px 0px no-repeat #fff;
-			content: "";
-			display: block;
-			width: 18px;
-			height: 15px;
-			position: absolute;
-			top: 1px;
-			left: -24px;
-		}
-		@include old-ie{
-			*zoom: expression(
-			this.runtimeStyle.zoom="1",
-			this.appendChild( document.createElement("small") ).className="breadcrumb_before"
-			);
-			*+html &{
-				margin-right: 15px;
-			}
-			.breadcrumb_before{
-				background: url("../image/bread.png")no-repeat #fff;
-				width: 18px;
-				height: 15px;
-				position: absolute;
-				top: 1px;
-				left: -24px;
-			}
-		}
+    font-family: "Arial Narrow";
+		font-size: 18px;
+		margin: 0px 0px 0px 13px;
+    @include before{
+      background: url("../image/mybreadcrumb-arrow.png") 0px 0px no-repeat #fff;
+      display: block;
+      width: 8px;
+      height: 9px;
+      position: absolute;
+      top: 8px;
+      left: -12px;
+    }
 		&:first-child {
-			margin: 0px 0px -1px 0px;
-			display: inline-block;
-			text-indent: 100%;
-			white-space: nowrap;
-			overflow: hidden;
-			width: 18px;
-			height: 15px;
-			background: url("../image/bread.png") 0px 0px no-repeat #fff;
-		}
-		&:first-child:before {
-			display: none; 
+      margin: 0px 0px 0px 20px;
+      @include before{
+        display: none; 
+      }		
 		}
 		@include old-ie{
 			&:first-child .breadcrumb_before {
@@ -52,37 +29,20 @@
 			}
 		}
 	}
- &_item{
-   color: #3498db;
-   position: relative;
-   font-size: 14px;
-   margin: 0px 0px 0px 23px;
-   &:before{
-      background: url("../image/bread.png") -18px 0px no-repeat #fff;
-      content: "";
+  &_item{
+    color: #949494;
+    position: relative;
+    font-family: "Arial Narrow";
+    font-size: 18px;
+    margin: 0px 0px 0px 13px;
+    @include before{
+      background: url("../image/mybreadcrumb-arrow.png") 0px 0px no-repeat #fff;
       display: block;
-			width: 18px;
-			height: 15px;
-			position: absolute;
-			top: 1px;
-			left: -24px;
+      width: 8px;
+      height: 9px;
+      position: absolute;
+      top: 8px;
+      left: -12px;
     }
-    @include old-ie{
-      *zoom: expression(
-        this.runtimeStyle.zoom="1",
-        this.appendChild( document.createElement("small") ).className="breadcrumb_before"
-      );
-      *+html &{
-        margin-right: 15px;
-      }
-      .breadcrumb_before{
-        background: url("../image/bread.png")no-repeat #fff;
-				width: 18px;
-				height: 15px;
-				position: absolute;
-				top: 1px;
-				left: -24px;
-      }
-    }
- }
+  }
 }

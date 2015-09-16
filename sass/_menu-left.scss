@@ -1,0 +1,29 @@
+.menu-left{
+  background-color: #1b0c04;
+  margin: 0px 0px 20px 0px;
+  &_link{
+    @include link(#ffffff, #ffbea4);
+    display: block;
+    position: relative;
+    padding: 6px 26px 6px 19px;
+    text-decoration: none;
+    border-top: 1px dotted #3b2e27;
+    font-size: 13px;
+    &:hover{
+      @include before{
+        display: block;
+        width: 6px;
+        height: 12px;
+        position: absolute;
+        right: 16px;
+        top: 7px;
+        background: url('../image/menu-left-arrow.png') no-repeat;
+      }
+    }   
+  }
+  &_item{
+    &:first-child a{
+      border: none;
+    }
+  }
+}
