@@ -139,7 +139,18 @@
   display: block;
   // close commented backslash hack
 }
-@mixin def-clearfix3 {
+@mixin clearfix2 {
+  &:after {
+    content:"";
+    display:table;
+    clear:both;
+  }
+  @include old-ie{
+    * html & { height: 1%; }
+    * zoom: 1;
+  }
+}
+@mixin clearfix3 {
   &:before,
   &:after {
     content: " ";
@@ -149,6 +160,14 @@
     clear: both;
   }
   @include old-ie{
+    * zoom: 1;
+  }
+}
+@mixin clearfix4 {
+  overflow: hidden;
+  @include old-ie{
+    overflow: visible;
+    * html & { height: 1%; }
     * zoom: 1;
   }
 }

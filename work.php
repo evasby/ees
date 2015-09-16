@@ -3,7 +3,7 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta charset="UTF-8">
-  <title>EES - О компании</title>
+  <title>EES - Наши работы</title>
   <link rel="stylesheet" href="css/all.css" type="text/css" />
   <link rel="stylesheet" href="dist/animate.css" type="text/css"/>
   <!--[if lt IE 9]>
@@ -89,7 +89,7 @@
     <div class="inner-internal">
       <div class="mybreadcrumb">
         <a class="mybreadcrumb_link" href="/main.php">Главная</a>
-        <span class="mybreadcrumb_item">О компании</span>
+        <span class="mybreadcrumb_item">Работы</span>
       </div>
     </div>
 
@@ -138,16 +138,50 @@
         </div>
       </aside>
       <section class="s-center">
-        <h1 class="title">О компании</h1>
+        <h1 class="title">Наши работы</h1>
         <article class="user-content">
-          <div class="user-content_image"><img src="image/down/main-article.jpg" alt=""></div>
-          <p>Компания «Мегагруп» приветствует Вас на сайте Вашей компании! Мы рады, что Вы сделали правильный выбор, ведь, создав сайт, Ваша компания приобрела свое лицо в безграничном пространстве Интернет! Надеемся, что благодаря этому сайту Ваши <a href="">потенциальные клиенты</a> будут легко находить Вас в сети Интернет, и сайт в скором времени начнет приносить прибыль.  Ваш сайт имеет систему управления (CMS-S3 MegaSite), которая позволяет легко управлять содержанием сайта без наличия навыков программирования благодаря удобному пользовательскому</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,</p>
         </article>
-        <div class="sert">
-          <a href="/layout/image/down/sert1-full.jpg" class="sert_item"><img src="image/down/sert1.jpg" alt=""></a>
-          <a href="/layout/image/down/sert1-full.jpg" class="sert_item"><img src="image/down/sert1.jpg" alt=""></a>
-          <a href="/layout/image/down/sert1-full.jpg" class="sert_item"><img src="image/down/sert1.jpg" alt=""></a>
-          <a href="/layout/image/down/sert1-full.jpg" class="sert_item"><img src="image/down/sert1.jpg" alt=""></a>
+        <div class="work">
+          <div class="work_item">
+            <div class="work_top">
+              <div class="work_title">Название объекта 1</div>
+              <a class="work_link" href="#">Смотреть все фото</a>
+            </div>
+            <div class="work_bottom">
+              <a class="work_colorbox" href="/layout/image/down/work.jpg" rel="gal1"><img src="/layout/image/down/work.jpg" alt=""></a>
+              <a class="work_colorbox" href="/layout/image/down/work.jpg" rel="gal1"><img src="/layout/image/down/work.jpg" alt=""></a>
+              <a class="work_colorbox" href="/layout/image/down/work.jpg" rel="gal1"><img src="/layout/image/down/work.jpg" alt=""></a>
+              <a class="work_colorbox" href="/layout/image/down/work.jpg" rel="gal1"><img src="/layout/image/down/work.jpg" alt=""></a>
+              <a class="work_colorbox" href="/layout/image/down/work.jpg" rel="gal1"><img src="/layout/image/down/work.jpg" alt=""></a>
+            </div>
+          </div>
+          <div class="work_item">
+            <div class="work_top">
+              <div class="work_title">Название объекта 2</div>
+              <a class="work_link" href="#">Смотреть все фото</a>
+            </div>
+            <div class="work_bottom">
+              <a class="work_colorbox" href="/layout/image/down/work.jpg" rel="gal2"><img src="/layout/image/down/work.jpg" alt=""></a>
+              <a class="work_colorbox" href="/layout/image/down/work.jpg" rel="gal2"><img src="/layout/image/down/work.jpg" alt=""></a>
+              <a class="work_colorbox" href="/layout/image/down/work.jpg" rel="gal2"><img src="/layout/image/down/work.jpg" alt=""></a>
+              <a class="work_colorbox" href="/layout/image/down/work.jpg" rel="gal2"><img src="/layout/image/down/work.jpg" alt=""></a>
+              <a class="work_colorbox" href="/layout/image/down/work.jpg" rel="gal2"><img src="/layout/image/down/work.jpg" alt=""></a>
+            </div>
+          </div>
+          <div class="work_item">
+            <div class="work_top">
+              <div class="work_title">Название объекта 3</div>
+              <a class="work_link" href="#">Смотреть все фото</a>
+            </div>
+            <div class="work_bottom">
+              <a class="work_colorbox" href="/layout/image/down/work.jpg" rel="gal3"><img src="/layout/image/down/work.jpg" alt=""></a>
+              <a class="work_colorbox" href="/layout/image/down/work.jpg" rel="gal3"><img src="/layout/image/down/work.jpg" alt=""></a>
+              <a class="work_colorbox" href="/layout/image/down/work.jpg" rel="gal3"><img src="/layout/image/down/work.jpg" alt=""></a>
+              <a class="work_colorbox" href="/layout/image/down/work.jpg" rel="gal3"><img src="/layout/image/down/work.jpg" alt=""></a>
+              <a class="work_colorbox" href="/layout/image/down/work.jpg" rel="gal3"><img src="/layout/image/down/work.jpg" alt=""></a>
+            </div>
+          </div>
         </div>
       </section>
     </div>

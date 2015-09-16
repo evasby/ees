@@ -3,7 +3,7 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta charset="UTF-8">
-  <title>EES - О компании</title>
+  <title>EES - Счетчики электрической энергии</title>
   <link rel="stylesheet" href="css/all.css" type="text/css" />
   <link rel="stylesheet" href="dist/animate.css" type="text/css"/>
   <!--[if lt IE 9]>
@@ -89,7 +89,8 @@
     <div class="inner-internal">
       <div class="mybreadcrumb">
         <a class="mybreadcrumb_link" href="/main.php">Главная</a>
-        <span class="mybreadcrumb_item">О компании</span>
+        <a class="mybreadcrumb_link" href="/main.php">Оптовая торговля</a>
+        <span class="mybreadcrumb_item">Счетчики электрической энергии</span>
       </div>
     </div>
 
@@ -138,16 +139,18 @@
         </div>
       </aside>
       <section class="s-center">
-        <h1 class="title">О компании</h1>
-        <article class="user-content">
-          <div class="user-content_image"><img src="image/down/main-article.jpg" alt=""></div>
-          <p>Компания «Мегагруп» приветствует Вас на сайте Вашей компании! Мы рады, что Вы сделали правильный выбор, ведь, создав сайт, Ваша компания приобрела свое лицо в безграничном пространстве Интернет! Надеемся, что благодаря этому сайту Ваши <a href="">потенциальные клиенты</a> будут легко находить Вас в сети Интернет, и сайт в скором времени начнет приносить прибыль.  Ваш сайт имеет систему управления (CMS-S3 MegaSite), которая позволяет легко управлять содержанием сайта без наличия навыков программирования благодаря удобному пользовательскому</p>
-        </article>
-        <div class="sert">
-          <a href="/layout/image/down/sert1-full.jpg" class="sert_item"><img src="image/down/sert1.jpg" alt=""></a>
-          <a href="/layout/image/down/sert1-full.jpg" class="sert_item"><img src="image/down/sert1.jpg" alt=""></a>
-          <a href="/layout/image/down/sert1-full.jpg" class="sert_item"><img src="image/down/sert1.jpg" alt=""></a>
-          <a href="/layout/image/down/sert1-full.jpg" class="sert_item"><img src="image/down/sert1.jpg" alt=""></a>
+        <h1 class="title">Счетчики электрической энергии</h1>
+        <div class="catalog-l2">
+          <div class="catalog-l2_item">
+            <div class="catalog-l2_image"><img src="/layout/image/down/main-article.jpg" alt=""></div>
+            <div class="catalog-l2_title">Название счетчика 1</div>
+            <div class="catalog-l2_text">d minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui </div>
+          </div>
+          <div class="catalog-l2_item">
+            <div class="catalog-l2_image"><img src="/layout/image/down/main-article.jpg" alt=""></div>
+            <div class="catalog-l2_title">Название счетчика 1</div>
+            <div class="catalog-l2_text">d minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui </div>
+          </div>
         </div>
       </section>
     </div>

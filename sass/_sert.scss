@@ -1,0 +1,12 @@
+.sert{
+	@include clearfix();
+	&_item{
+		float: left;
+		width: 116px;
+		height: 168px;
+		margin: 0px 24px 24px 0px;
+		&:nth-child(4n){
+			margin: 0px 0px 24px 0px;
+		}
+	}
+}

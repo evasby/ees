@@ -30,7 +30,7 @@
   <div class="inner">
     <header class="header">
       <div class="inner-internal">
-        <a href="/" class="header_logo">Экспертэнергосервис</a>
+        <a href="/layout/" class="header_logo">Экспертэнергосервис</a>
         <div class="header_phone">
           <p>+375 (17) 399 38 50</p>
           <p>+375 (29) 66 55 850</p>
@@ -45,42 +45,42 @@
       <div class="inner-internal">
         <ul class="menu-top_list">
           <li class="menu-top_item">
-            <a href="/" class="menu-top_link">Главная</a>
+            <a href="/layout/" class="menu-top_link">Главная</a>
           </li>
           <li class="menu-top_item">
-            <a href="/about.php" class="menu-top_link">О компании</a>
+            <a href="/layout/about.php" class="menu-top_link">О компании</a>
           </li>
           <li class="menu-top_item">
             <span class="menu-top_link">Услуги</span>
             <ul class="menu-top_list__l2">
               <li class="menu-top_item__l2">
-                <a href="/about.php" class="menu-top_link__l2">Электромонтажные работы</a>
+                <a href="/layout/about.php" class="menu-top_link__l2">Электромонтажные работы</a>
               </li>
               <li class="menu-top_item__l2">
-                <a href="/about.php" class="menu-top_link__l2">Проектирование</a>
+                <a href="/layout/about.php" class="menu-top_link__l2">Проектирование</a>
               </li>
               <li class="menu-top_item__l2">
-                <a href="/about.php" class="menu-top_link__l2">Молниезащита</a>
+                <a href="/layout/about.php" class="menu-top_link__l2">Молниезащита</a>
               </li>
               <li class="menu-top_item__l2">
-                <a href="/about.php" class="menu-top_link__l2">Электрощитовое оборудование</a>
+                <a href="/layout/about.php" class="menu-top_link__l2">Электрощитовое оборудование</a>
               </li>
               <li class="menu-top_item__l2">
-                <a href="/opt.php" class="menu-top_link__l2">Оптовая торговля</a>
+                <a href="/layout/opt.php" class="menu-top_link__l2">Оптовая торговля</a>
               </li>
             </ul>
           </li>
           <li class="menu-top_item">
-            <a href="/work.php" class="menu-top_link">Работы</a>
+            <a href="/layout/work.php" class="menu-top_link">Работы</a>
           </li>
           <li class="menu-top_item">
-            <a href="/articles.php" class="menu-top_link">Статьи</a>
+            <a href="/layout/articles.php" class="menu-top_link">Статьи</a>
           </li>
           <li class="menu-top_item">
-            <a href="/feedback.php" class="menu-top_link">Обратная связь</a>
+            <a href="/layout/feedback.php" class="menu-top_link">Обратная связь</a>
           </li>
           <li class="menu-top_item">
-            <a href="/contacts.php" class="menu-top_link">Контакты</a>
+            <a href="/layout/contacts.php" class="menu-top_link">Контакты</a>
           </li>
         </ul>
       </div>
@@ -91,19 +91,19 @@
         <div class="menu-left">
           <ul class="menu-left_list">
             <li class="menu-left_item">
-              <a href="" class="menu-left_link">Электромонтажные работы</a>
+              <a href="/layout/about.php" class="menu-left_link">Электромонтажные работы</a>
             </li>
             <li class="menu-left_item">
-              <a href="" class="menu-left_link">Проектирование</a>
+              <a href="/layout/about.php" class="menu-left_link">Проектирование</a>
             </li>
             <li class="menu-left_item">
-              <a href="" class="menu-left_link">Молниезащита</a>
+              <a href="/layout/about.php" class="menu-left_link">Молниезащита</a>
             </li>
             <li class="menu-left_item">
-              <a href="" class="menu-left_link">Электрощитовое оборудование</a>
+              <a href="/layout/about.php" class="menu-left_link">Электрощитовое оборудование</a>
             </li>
             <li class="menu-left_item">
-              <a href="" class="menu-left_link">Оптовая торговля</a>
+              <a href="/layout/opt.php" class="menu-left_link">Оптовая торговля</a>
             </li>
           </ul>
         </div>
