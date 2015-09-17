@@ -54,16 +54,16 @@
             <span class="menu-top_link">Услуги</span>
             <ul class="menu-top_list__l2">
               <li class="menu-top_item__l2">
-                <a href="/layout/about.php" class="menu-top_link__l2">Электромонтажные работы</a>
+                <a href="/layout/service.php" class="menu-top_link__l2">Электромонтажные работы</a>
               </li>
               <li class="menu-top_item__l2">
-                <a href="/layout/about.php" class="menu-top_link__l2">Проектирование</a>
+                <a href="/layout/service.php" class="menu-top_link__l2">Проектирование</a>
               </li>
               <li class="menu-top_item__l2">
-                <a href="/layout/about.php" class="menu-top_link__l2">Молниезащита</a>
+                <a href="/layout/service.php" class="menu-top_link__l2">Молниезащита</a>
               </li>
               <li class="menu-top_item__l2">
-                <a href="/layout/about.php" class="menu-top_link__l2">Электрощитовое оборудование</a>
+                <a href="/layout/service.php" class="menu-top_link__l2">Электрощитовое оборудование</a>
               </li>
               <li class="menu-top_item__l2">
                 <a href="/layout/opt.php" class="menu-top_link__l2">Оптовая торговля</a>
@@ -88,7 +88,7 @@
     
     <div class="inner-internal">
       <div class="mybreadcrumb">
-        <a class="mybreadcrumb_link" href="/main.php">Главная</a>
+        <a class="mybreadcrumb_link" href="/layout/main.php">Главная</a>
         <span class="mybreadcrumb_item">Оптовая торговля</span>
       </div>
     </div>
@@ -98,16 +98,16 @@
         <div class="menu-left">
           <ul class="menu-left_list">
             <li class="menu-left_item">
-              <a href="/layout/about.php" class="menu-left_link">Электромонтажные работы</a>
+              <a href="/layout/service.php" class="menu-left_link">Электромонтажные работы</a>
             </li>
             <li class="menu-left_item">
-              <a href="/layout/about.php" class="menu-left_link">Проектирование</a>
+              <a href="/layout/service.php" class="menu-left_link">Проектирование</a>
             </li>
             <li class="menu-left_item">
-              <a href="/layout/about.php" class="menu-left_link">Молниезащита</a>
+              <a href="/layout/service.php" class="menu-left_link">Молниезащита</a>
             </li>
             <li class="menu-left_item">
-              <a href="/layout/about.php" class="menu-left_link">Электрощитовое оборудование</a>
+              <a href="/layout/service.php" class="menu-left_link">Электрощитовое оборудование</a>
             </li>
             <li class="menu-left_item">
               <a href="/layout/opt.php" class="menu-left_link">Оптовая торговля</a>

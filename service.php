@@ -3,7 +3,7 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta charset="UTF-8">
-  <title>EES - Главная</title>
+  <title>EES - Молниезащита</title>
   <link rel="stylesheet" href="css/all.css" type="text/css" />
   <link rel="stylesheet" href="dist/animate.css" type="text/css"/>
   <!--[if lt IE 9]>
@@ -85,6 +85,13 @@
         </ul>
       </div>
     </nav>
+    
+    <div class="inner-internal">
+      <div class="mybreadcrumb">
+        <a class="mybreadcrumb_link" href="/layout/main.php">Главная</a>
+        <span class="mybreadcrumb_item">Молниезащита</span>
+      </div>
+    </div>
 
     <div class="inner-internal clearfix">
       <aside class="s-left">
@@ -97,7 +104,7 @@
               <a href="/layout/service.php" class="menu-left_link">Проектирование</a>
             </li>
             <li class="menu-left_item">
-              <a href="/layout/service.php" class="menu-left_link">Молниезащита</a>
+              <a href="/layout/service.php" class="menu-left_link menu-left_link__active">Молниезащита</a>
             </li>
             <li class="menu-left_item">
               <a href="/layout/service.php" class="menu-left_link">Электрощитовое оборудование</a>
@@ -131,24 +138,12 @@
         </div>
       </aside>
       <section class="s-center">
-        <h1 class="title">Заголовок</h1>
+        <h1 class="title">Молниезащита</h1>
         <article class="user-content">
           <div class="user-content_image"><img src="image/down/main-article.jpg" alt=""></div>
           <p>Компания «Мегагруп» приветствует Вас на сайте Вашей компании! Мы рады, что Вы сделали правильный выбор, ведь, создав сайт, Ваша компания приобрела свое лицо в безграничном пространстве Интернет! Надеемся, что благодаря этому сайту Ваши <a href="">потенциальные клиенты</a> будут легко находить Вас в сети Интернет, и сайт в скором времени начнет приносить прибыль.  Ваш сайт имеет систему управления (CMS-S3 MegaSite), которая позволяет легко управлять содержанием сайта без наличия навыков программирования благодаря удобному пользовательскому</p>
-          <h2>Заголовок h2</h2>
-          <p><strong>Маркированный список:</strong></p>
-          <ul>
-            <li>Маркированный список. Пункт №1</li>
-            <li>Маркированный список. Пункт №2</li>
-            <li>Маркированный список. Пункт №3</li>
-          </ul>
-          <p><strong>Нумерованный список:</strong></p>
-          <ol>
-            <li>Нумерованный список. Пункт №1</li>
-            <li>Нумерованный список. Пункт №2</li>
-            <li>Нумерованный список. Пункт №3</li>
-          </ol>
         </article>
+        <div class="examples">Примеры наших работ вы можете посмотреть <a href="/layout/work.php" class="examples_link">здесь</a></div>
       </section>
     </div>
       

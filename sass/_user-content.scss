@@ -1,8 +1,14 @@
 .user-content{
 	padding: 0px 0px 0px 0px;
 	&_image{
-		float: right;
-		padding: 6px 0px 0px 15px;
+		&__r{
+			float: right;
+			padding: 6px 0px 0px 15px;
+		}
+		&__l{
+			float: left;
+			padding: 6px 15px 0px 0px;
+		}
 	}
 	h1{
 		font-family: $robotocond;

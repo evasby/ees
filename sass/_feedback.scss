@@ -1,0 +1,73 @@
+.feedback{
+  padding: 15px 0px 0px 0px;
+  .messages{
+    display: none;
+  }
+  &_confirmation{
+    //padding: 0px 22px 0px 22px;
+    p{
+      //text-align: center;
+    }
+  }
+
+  &_inner{
+    padding: 0px 0px 20px 0px;
+    color: #000000;
+    //text-align: center;
+    input{
+      font-size: 14px;
+      width: 306px;
+      height: 23px;
+      border: 1px solid #eedcd3;
+      margin: 0px;
+      padding: 0px 5px 0px 5px;
+      &:focus{
+        border: 1px solid #000002;
+      }
+    }
+    .error{
+      border: 1px solid #ff0000;
+    }
+    textarea{
+      box-sizing: content-box;
+      display: inline;
+      font-size: 14px;
+      width: 306px;
+      height: 117px;
+      border: 1px solid #eedcd3;
+      margin: 0px;
+      padding: 5px 5px 0px 5px;
+      &:focus{
+        border: 1px solid #000002;
+      }
+    }
+  }
+  &_label{
+    font-family: $robotocond;
+    color: #000000;
+    font-size: 16px;
+    padding: 0px 0px 10px 0px;
+  }
+  &_descr{
+    font-size: 12px;
+    color: #000000;
+  }
+  &_button{
+    padding: 25px 0px 0px 0px;
+    input{
+      border: none;
+      background-color: #050505;
+      width: 109px;
+      height: 34px;
+      font-family: $robotocond;
+      color: #fefbfb;
+      font-size: 15px;
+      cursor: pointer;
+      &:hover{
+        -webkit-box-shadow: 2px 2px 4px -1px rgba(5,5,5,1);
+        -moz-box-shadow: 2px 2px 4px -1px rgba(5,5,5,1);
+        box-shadow: 2px 2px 4px -1px rgba(5,5,5,1);
+      }
+    }
+  }
+}

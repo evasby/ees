@@ -3,7 +3,7 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta charset="UTF-8">
-  <title>EES - Главная</title>
+  <title>EES - Статьи</title>
   <link rel="stylesheet" href="css/all.css" type="text/css" />
   <link rel="stylesheet" href="dist/animate.css" type="text/css"/>
   <!--[if lt IE 9]>
@@ -85,6 +85,13 @@
         </ul>
       </div>
     </nav>
+    
+    <div class="inner-internal">
+      <div class="mybreadcrumb">
+        <a class="mybreadcrumb_link" href="/layout/main.php">Главная</a>
+        <span class="mybreadcrumb_item">Статьи</span>
+      </div>
+    </div>
 
     <div class="inner-internal clearfix">
       <aside class="s-left">
@@ -131,24 +138,27 @@
         </div>
       </aside>
       <section class="s-center">
-        <h1 class="title">Заголовок</h1>
-        <article class="user-content">
-          <div class="user-content_image"><img src="image/down/main-article.jpg" alt=""></div>
-          <p>Компания «Мегагруп» приветствует Вас на сайте Вашей компании! Мы рады, что Вы сделали правильный выбор, ведь, создав сайт, Ваша компания приобрела свое лицо в безграничном пространстве Интернет! Надеемся, что благодаря этому сайту Ваши <a href="">потенциальные клиенты</a> будут легко находить Вас в сети Интернет, и сайт в скором времени начнет приносить прибыль.  Ваш сайт имеет систему управления (CMS-S3 MegaSite), которая позволяет легко управлять содержанием сайта без наличия навыков программирования благодаря удобному пользовательскому</p>
-          <h2>Заголовок h2</h2>
-          <p><strong>Маркированный список:</strong></p>
-          <ul>
-            <li>Маркированный список. Пункт №1</li>
-            <li>Маркированный список. Пункт №2</li>
-            <li>Маркированный список. Пункт №3</li>
-          </ul>
-          <p><strong>Нумерованный список:</strong></p>
-          <ol>
-            <li>Нумерованный список. Пункт №1</li>
-            <li>Нумерованный список. Пункт №2</li>
-            <li>Нумерованный список. Пункт №3</li>
-          </ol>
-        </article>
+        <h1 class="title">Статьи</h1>
+        <div class="articles">
+          <div class="articles_item">
+            <div class="articles_image"><img src="/layout/image/down/main-article.jpg" alt=""></div>
+            <div class="articles_title">Название статьи 1</div>
+            <div class="articles_text">d minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui </div>
+            <a href="/layout/article.php" class="articles_link">Читать подробнее</a>
+          </div>
+          <div class="articles_item">
+            <div class="articles_image"><img src="/layout/image/down/main-article.jpg" alt=""></div>
+            <div class="articles_title">Название статьи 1</div>
+            <div class="articles_text">d minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui </div>
+            <a href="/layout/article.php" class="articles_link">Читать подробнее</a>
+          </div>
+          <div class="articles_item">
+            <div class="articles_image"><img src="/layout/image/down/main-article.jpg" alt=""></div>
+            <div class="articles_title">Название статьи 1</div>
+            <div class="articles_text">d minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui </div>
+            <a href="/layout/article.php" class="articles_link">Читать подробнее</a>
+          </div>
+        </div>
       </section>
     </div>
       

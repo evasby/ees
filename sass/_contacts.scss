@@ -1,0 +1,59 @@
+.contacts{
+  &_phone{
+    position: relative;
+    padding: 0px 0px 0px 44px;
+    @include before{
+      position: absolute;
+      display: block;
+      width: 28px;
+      height: 28px;
+      top: -2px;
+      left: 0px;
+      background: url('../image/icons-header.png') 0px 0px no-repeat;
+    }
+    p{
+      font-family: $robotocond;
+      font-size: 18px;
+      margin: 0px 0px 7px 0px;
+    }
+    margin: 0px 0px 25px 0px;
+  }
+  &_mail{
+    position: relative;
+    padding: 0px 0px 0px 44px;
+    @include before{
+      position: absolute;
+      display: block;
+      width: 28px;
+      height: 28px;
+      top: -3px;
+      left: 0px;
+      background: url('../image/icons-header.png') -28px 0px no-repeat;
+    }
+    p{
+      font-family: $robotocond;
+      font-size: 18px;
+      margin: 0px 0px 7px 0px;
+    }
+    margin: 0px 0px 25px 0px;
+  }
+  &_time{
+    position: relative;
+    padding: 0px 0px 0px 44px;
+    @include before{
+      position: absolute;
+      display: block;
+      width: 28px;
+      height: 28px;
+      top: -3px;
+      left: 0px;
+      background: url('../image/icons-header.png') -112px 0px no-repeat;
+    }
+    p{
+      font-family: $robotocond;
+      font-size: 18px;
+      margin: 0px 0px 7px 0px;
+    }
+    margin: 0px 0px 25px 0px;
+  }
+}

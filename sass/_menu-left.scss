@@ -21,6 +21,19 @@
         background: url('../image/menu-left-arrow.png') no-repeat;
       }
     }   
+    &__active{
+      @include link(#ffbea4, #ffbea4);
+      @include before{
+        display: block;
+        width: 6px;
+        height: 12px;
+        position: absolute;
+        right: 16px;
+        top: 50%;
+        margin: -6px 0px 0px 0px;
+        background: url('../image/menu-left-arrow.png') no-repeat;
+      }
+    }
   }
   &_item{
     &:first-child a{
