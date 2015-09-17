@@ -763,6 +763,38 @@ textarea:focus {
   background-color: #edbba7;
   border-color: #edbba7;
 }
+.menu-top_link__l2.menu-top_link__active {
+  background-color: #edbba7;
+  border-color: #edbba7;
+  color: #1b0c04;
+}
+.menu-top_link__l2.menu-top_link__active:visited {
+  color: #1b0c04;
+}
+.menu-top_link__l2.menu-top_link__active:hover {
+  color: #1b0c04;
+}
+.menu-top_link__l2.menu-top_link__active:active {
+  color: #1b0c04;
+}
+.menu-top_link__l2.menu-top_link__active:focus {
+  color: #1b0c04;
+}
+.menu-top_link__active {
+  color: #edbba7;
+}
+.menu-top_link__active:visited {
+  color: #edbba7;
+}
+.menu-top_link__active:hover {
+  color: #edbba7;
+}
+.menu-top_link__active:active {
+  color: #edbba7;
+}
+.menu-top_link__active:focus {
+  color: #edbba7;
+}
 
 .title {
   font-family: robotocond;

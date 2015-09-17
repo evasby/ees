@@ -48,7 +48,7 @@
             <a href="/layout/" class="menu-top_link">Главная</a>
           </li>
           <li class="menu-top_item">
-            <a href="/layout/about.php" class="menu-top_link">О компании</a>
+            <a href="/layout/about.php" class="menu-top_link menu-top_link__active">О компании</a>
           </li>
           <li class="menu-top_item">
             <span class="menu-top_link">Услуги</span>

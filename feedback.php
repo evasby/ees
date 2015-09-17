@@ -77,7 +77,7 @@
             <a href="/layout/articles.php" class="menu-top_link">Статьи</a>
           </li>
           <li class="menu-top_item">
-            <a href="/layout/feedback.php" class="menu-top_link">Обратная связь</a>
+            <a href="/layout/feedback.php" class="menu-top_link menu-top_link__active">Обратная связь</a>
           </li>
           <li class="menu-top_item">
             <a href="/layout/contacts.php" class="menu-top_link">Контакты</a>

@@ -71,7 +71,7 @@
             </ul>
           </li>
           <li class="menu-top_item">
-            <a href="/layout/work.php" class="menu-top_link">Работы</a>
+            <a href="/layout/work.php" class="menu-top_link menu-top_link__active">Работы</a>
           </li>
           <li class="menu-top_item">
             <a href="/layout/articles.php" class="menu-top_link">Статьи</a>

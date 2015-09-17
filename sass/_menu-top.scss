@@ -63,6 +63,14 @@
         background-color: #edbba7;
         border-color: #edbba7;
       }
+      &.menu-top_link__active{
+        background-color: #edbba7;
+        border-color: #edbba7;
+        @include link(#1b0c04, #1b0c04);
+      }
+    }
+    &__active{
+      @include link(#edbba7, #edbba7);
     }
   }
 }

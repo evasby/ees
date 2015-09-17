@@ -66,7 +66,7 @@
                 <a href="/layout/service.php" class="menu-top_link__l2">Электрощитовое оборудование</a>
               </li>
               <li class="menu-top_item__l2">
-                <a href="/layout/opt.php" class="menu-top_link__l2">Оптовая торговля</a>
+                <a href="/layout/opt.php" class="menu-top_link__l2 menu-top_link__active">Оптовая торговля</a>
               </li>
             </ul>
           </li>

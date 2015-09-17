@@ -45,7 +45,7 @@
       <div class="inner-internal">
         <ul class="menu-top_list">
           <li class="menu-top_item">
-            <a href="/layout/" class="menu-top_link">Главная</a>
+            <a href="/layout/" class="menu-top_link menu-top_link__active">Главная</a>
           </li>
           <li class="menu-top_item">
             <a href="/layout/about.php" class="menu-top_link">О компании</a>

@@ -74,7 +74,7 @@
             <a href="/layout/work.php" class="menu-top_link">Работы</a>
           </li>
           <li class="menu-top_item">
-            <a href="/layout/articles.php" class="menu-top_link">Статьи</a>
+            <a href="/layout/articles.php" class="menu-top_link menu-top_link__active">Статьи</a>
           </li>
           <li class="menu-top_item">
             <a href="/layout/feedback.php" class="menu-top_link">Обратная связь</a>
