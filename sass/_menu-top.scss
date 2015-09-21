@@ -63,7 +63,7 @@
         background-color: #edbba7;
         border-color: #edbba7;
       }
-      &.menu-top_link__active{
+      &.menu-top_link__active, &.active{
         background-color: #edbba7;
         border-color: #edbba7;
         @include link(#1b0c04, #1b0c04);

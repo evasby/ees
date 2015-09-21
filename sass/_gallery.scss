@@ -1,7 +1,7 @@
 .gallery{
   padding: 10px 0px 0px 0px;
   @include clearfix();
-  &_item{
+  a{
     float: left;
     width: 119px;
     height: 119px;

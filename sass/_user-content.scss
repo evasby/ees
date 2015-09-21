@@ -1,5 +1,6 @@
 .user-content{
 	padding: 0px 0px 0px 0px;
+	@include clearfix4();
 	&_image{
 		&__r{
 			float: right;

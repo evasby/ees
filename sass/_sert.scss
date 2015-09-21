@@ -1,7 +1,7 @@
 .sert{
 	padding: 10px 0px 0px 0px;
 	@include clearfix();
-	&_item{
+	a{
 		float: left;
 		width: 116px;
 		height: 168px;
