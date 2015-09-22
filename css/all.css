@@ -545,7 +545,7 @@ textarea:focus {
   color: #949494;
   position: relative;
   font-size: 12px;
-  margin: 0px 0px 0px 13px;
+  margin: 0px 4px 0px 13px;
 }
 .mybreadcrumb_link:visited {
   color: #949494;
@@ -570,7 +570,7 @@ textarea:focus {
   left: -12px;
 }
 .mybreadcrumb_link:first-child {
-  margin: 0px 0px 0px 20px;
+  margin: 0px 4px 0px 20px;
 }
 .mybreadcrumb_link:first-child:before {
   content: "";
@@ -761,6 +761,21 @@ textarea:focus {
 .menu-top_link__active:focus {
   color: #edbba7;
 }
+.menu-top_link.active {
+  color: #edbba7;
+}
+.menu-top_link.active:visited {
+  color: #edbba7;
+}
+.menu-top_link.active:hover {
+  color: #edbba7;
+}
+.menu-top_link.active:active {
+  color: #edbba7;
+}
+.menu-top_link.active:focus {
+  color: #edbba7;
+}
 
 .title {
   font-family: robotocond;
@@ -874,7 +889,7 @@ textarea:focus {
   color: #ffffff;
   display: block;
   position: relative;
-  padding: 10px 26px 10px 19px;
+  padding: 13px 26px 13px 19px;
   text-decoration: none;
   border-top: 1px dotted #3b2e27;
   font-size: 13px;
@@ -972,6 +987,7 @@ textarea:focus {
 .banner-right {
   padding: 4px;
   background-color: #f4ece8;
+  margin: 0px 0px 20px 0px;
 }
 .banner-right_item {
   display: block;
@@ -1072,7 +1088,7 @@ textarea:focus {
   margin: 0px 0px 24px 0px;
 }
 
-.catalog-l1_item {
+.catalog-l1 a {
   display: block;
   font-family: robotocond;
   color: #030303;
@@ -1102,19 +1118,19 @@ textarea:focus {
   transition-delay: 0s;
   transition-timing-function: ease-in-out;
 }
-.catalog-l1_item:visited {
+.catalog-l1 a:visited {
   color: #030303;
 }
-.catalog-l1_item:hover {
+.catalog-l1 a:hover {
   color: #030303;
 }
-.catalog-l1_item:active {
+.catalog-l1 a:active {
   color: #030303;
 }
-.catalog-l1_item:focus {
+.catalog-l1 a:focus {
   color: #030303;
 }
-.catalog-l1_item:before {
+.catalog-l1 a:before {
   content: "";
   position: absolute;
   top: 11px;
@@ -1124,7 +1140,7 @@ textarea:focus {
   height: 12px;
   background: url("../image/catalog-l1-arrow.png") no-repeat;
 }
-.catalog-l1_item:hover {
+.catalog-l1 a:hover {
   background-color: #edbba7;
   padding: 8px 0px 0px 23px;
 }
@@ -1357,6 +1373,7 @@ textarea:focus {
 }
 .feedback_button {
   padding: 25px 0px 0px 0px;
+  position: relative;
 }
 .feedback_button input {
   border: none;
@@ -1372,6 +1389,21 @@ textarea:focus {
   -webkit-box-shadow: 2px 2px 4px -1px #050505;
   -moz-box-shadow: 2px 2px 4px -1px #050505;
   box-shadow: 2px 2px 4px -1px #050505;
+}
+.feedback_button .ajax-progress {
+  position: absolute;
+  bottom: 11px;
+  left: 120px;
+}
+.feedback_button .ajax-progress .throbber {
+  background: transparent url("../image/form-loading.gif") no-repeat 0px 0px;
+  /* tweak this according to your gif */
+  float: left;
+  height: 16px;
+  /* tweak this according to your gif */
+  width: 16px;
+  /* tweak this according to your gif */
+  margin: 0px;
 }
 
 .contacts_phone {
@@ -1433,6 +1465,10 @@ textarea:focus {
   font-family: robotocond;
   font-size: 18px;
   margin: 0px 0px 7px 0px;
+}
+.contacts_descr {
+  padding: 0px 0px 0px 44px;
+  margin: 0px 0px 25px 0px;
 }
 
 .gmap {

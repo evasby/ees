@@ -72,5 +72,8 @@
     &__active{
       @include link(#edbba7, #edbba7);
     }
+    &.active{
+      @include link(#edbba7, #edbba7);
+    }
   }
 }

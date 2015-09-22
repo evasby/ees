@@ -1,5 +1,5 @@
 .catalog-l1{
-	&_item{
+	a{
 		display: block;
 		font-family: $robotocond;
 		@include link(#030303, #030303);

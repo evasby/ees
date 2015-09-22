@@ -54,6 +54,7 @@
   }
   &_button{
     padding: 25px 0px 0px 0px;
+    position: relative;
     input{
       border: none;
       background-color: #050505;
@@ -67,6 +68,20 @@
         -webkit-box-shadow: 2px 2px 4px -1px rgba(5,5,5,1);
         -moz-box-shadow: 2px 2px 4px -1px rgba(5,5,5,1);
         box-shadow: 2px 2px 4px -1px rgba(5,5,5,1);
+      }
+    }
+    .ajax-progress{
+      position: absolute;
+      //top: 10px;
+      //left: -6px;
+      bottom: 11px;
+      left: 120px;
+      .throbber {
+        background: transparent url('../image/form-loading.gif') no-repeat 0px 0px; /* tweak this according to your gif */
+        float: left;
+        height: 16px; /* tweak this according to your gif */
+        width: 16px; /* tweak this according to your gif */
+        margin: 0px;
       }
     }
   }

@@ -7,7 +7,7 @@
 		position: relative;
     //ont-family: "Arial Narrow";
 		font-size: 12px;
-		margin: 0px 0px 0px 13px;
+		margin: 0px 4px 0px 13px;
     @include before{
       background: url("../image/mybreadcrumb-arrow.png") 0px 0px no-repeat #fff;
       display: block;
@@ -18,7 +18,7 @@
       left: -12px;
     }
 		&:first-child {
-      margin: 0px 0px 0px 20px;
+      margin: 0px 4px 0px 20px;
       @include before{
         display: none; 
       }		
