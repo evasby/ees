@@ -32,7 +32,7 @@
     color: #000000;
   }
   &_link{
-    @include link(#bfbfbf, #bfbfbf);
+    @include link(#bfbfbf, #999999);
     font-size: 12px;
     float: right;
   }

@@ -128,6 +128,10 @@ strong, b {
   font-weight: bold;
 }
 
+i, em {
+  font-style: italic;
+}
+
 a:focus {
   outline: none;
 }
@@ -525,6 +529,7 @@ textarea:focus {
 
 .inner {
   width: 1200px;
+  min-width: 1024px;
   margin: 0 auto;
 }
 .inner .header {
@@ -1030,6 +1035,43 @@ textarea:focus {
   margin: -6px 0px 0px 0px;
   background: url("../image/menu-left-arrow.png") no-repeat;
 }
+.menu-left_link.active {
+  color: #ffbea4;
+  *zoom: expression( this.runtimeStyle.zoom="1", this.appendChild( document.createElement("small") ).className="before" );
+}
+.menu-left_link.active:visited {
+  color: #ffbea4;
+}
+.menu-left_link.active:hover {
+  color: #ffbea4;
+}
+.menu-left_link.active:active {
+  color: #ffbea4;
+}
+.menu-left_link.active:focus {
+  color: #ffbea4;
+}
+.menu-left_link.active:before {
+  content: "";
+  display: block;
+  width: 6px;
+  height: 12px;
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  margin: -6px 0px 0px 0px;
+  background: url("../image/menu-left-arrow.png") no-repeat;
+}
+.menu-left_link.active .before {
+  display: block;
+  width: 6px;
+  height: 12px;
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  margin: -6px 0px 0px 0px;
+  background: url("../image/menu-left-arrow.png") no-repeat;
+}
 .menu-left_item:first-child a {
   border: none;
 }
@@ -1095,6 +1137,9 @@ textarea:focus {
 .banner-right_item:focus {
   color: #190c06;
 }
+.banner-right_item:hover {
+  text-decoration: underline;
+}
 .banner-right_inner {
   border: 1px solid #ffffff;
   padding: 13px;
@@ -1144,6 +1189,9 @@ textarea:focus {
   width: 8px;
   height: 9px;
   background: url("../image/banner-right-arrow.png") no-repeat;
+}
+.banner-right_link:hover {
+  text-decoration: underline;
 }
 .banner-right_title {
   padding: 9px 0px 0px 0px;
@@ -1439,7 +1487,7 @@ textarea:focus {
   color: #bfbfbf;
 }
 .articles_link:hover {
-  color: #bfbfbf;
+  color: #999999;
 }
 .articles_link:active {
   color: #bfbfbf;

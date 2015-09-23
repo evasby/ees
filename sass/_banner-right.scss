@@ -8,6 +8,9 @@
     font-size: 13px;
     text-decoration: none;
     @include link(#190c06, #190c06);
+    &:hover{
+      text-decoration: underline;
+    }
   }
   &_inner{
     border: 1px solid #ffffff;
@@ -34,6 +37,9 @@
       width: 8px;
       height: 9px;
       background: url('../image/banner-right-arrow.png') no-repeat;
+    }
+    &:hover{
+      text-decoration: underline;
     }
   }
   &_title{

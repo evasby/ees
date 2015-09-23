@@ -30,8 +30,8 @@ strong, b{
   //font-family: $bold;
   font-weight: bold;
 }
-i{
-  //font-family: $italic;
+i, em{
+  font-style: italic;
 }
 a{
   //@include link(#373737, #373737);
