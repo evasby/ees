@@ -44,12 +44,12 @@ module.exports = function(grunt) {
             }
         },*/
         ftp_push: {
-			    css: {
+                css: {
                     options: {
                         authKey: 'key1',
-                        host: 'wfs.by',
-                        //dest: 'www/ees.wfs.by/layout',
-                        dest: 'www/ees.wfs.by/sites/all/themes/ees',
+                        host: '178.124.141.134',
+                        dest: '/httpdocs/sites/all/themes/ees/',
+                        //dest: '/home/evasby/www/iphone.wfs.by/sites/all/themes/iphone',
                         port: 21
                     },
                     files: [
@@ -62,12 +62,12 @@ module.exports = function(grunt) {
                             ]
                         }
                     ]
-			    },
+                }/*,
                 php: {
                     options: {
                         authKey: 'key1',
                         host: 'wfs.by',
-                        dest: 'www/ees.wfs.by/layout',
+                        dest: '/home/evasby/www/ees.wfs.by/layout',
                         port: 21
                     },
                     files: [
@@ -84,7 +84,7 @@ module.exports = function(grunt) {
                     options: {
                         authKey: 'key1',
                         host: 'wfs.by',
-                        dest: 'www/ees.wfs.by/layout',
+                        dest: '/home/evasby/www/ees.wfs.by/layout',
                         port: 21
                     },
                     files: [
@@ -101,7 +101,7 @@ module.exports = function(grunt) {
                     options: {
                         authKey: 'key1',
                         host: 'wfs.by',
-                        dest: 'www/ees.wfs.by/layout',
+                        dest: '/home/evasby/www/ees.wfs.by/layout',
                         port: 21
                     },
                     files: [
@@ -118,7 +118,7 @@ module.exports = function(grunt) {
                     options: {
                         authKey: 'key1',
                         host: 'wfs.by',
-                        dest: 'www/ees.wfs.by/layout',
+                        dest: '/home/evasby/www/ees.wfs.by/layout',
                         port: 21
                     },
                     files: [
@@ -130,8 +130,8 @@ module.exports = function(grunt) {
                             ]
                         }
                     ]
-                }
-			  },
+                }*/
+              },
         watch: {
             css: {
                 files: ['sass/*.scss'],
@@ -139,7 +139,7 @@ module.exports = function(grunt) {
                 options: {
                     spawn: false,
                 }
-            },
+            }/*,
             php: {
                 files: ['*.php'],
                 tasks: ['ftp_push:php'],
@@ -153,7 +153,7 @@ module.exports = function(grunt) {
                 options: {
                     spawn: false,
                 }
-            }
+            }*/
         }
     });
     grunt.loadNpmTasks('grunt-contrib-sass');
