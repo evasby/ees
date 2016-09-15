@@ -172,6 +172,17 @@ textarea{
 .fadeIn, .fadeInUp, .fadeOut, .fadeOutUp, .flipInX, .flipOutX, .flipInY, .flipOutY, .zoomIn, .zoomOut, .slideInLeft, .rollIn, .rollOut, .bounce, .pulse, .tada, .bounceInDown{
   visibility: visible;
 }
+.field-name-field-files span.file{
+  display: table;
+  height: 32px;
+}
+.field-name-field-files img{
+  margin-right: 10px;
+}
+.field-name-field-files a{
+  display: table-cell;
+  vertical-align: middle;
+}
 //**********************************************************/
 //**********************************************************/
 @import "dev";
