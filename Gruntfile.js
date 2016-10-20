@@ -135,7 +135,8 @@ module.exports = function(grunt) {
         watch: {
             css: {
                 files: ['sass/*.scss'],
-                tasks: ['sass', 'ftp_push:css'],
+                //tasks: ['sass', 'ftp_push:css'],
+                tasks: ['sass'],
                 options: {
                     spawn: false,
                 }
@@ -159,7 +160,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-ftp-upload');
-    grunt.loadNpmTasks('grunt-ftp-push');
-    grunt.registerTask('default', ['sass', 'ftp_push', 'watch']);
-    //grunt.registerTask('default', ['sass', 'watch']);
+    //grunt.loadNpmTasks('grunt-ftp-push');
+    //grunt.registerTask('default', ['sass', 'ftp_push', 'watch']);
+    grunt.registerTask('default', ['sass', 'watch']);
 };

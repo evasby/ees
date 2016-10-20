@@ -10,7 +10,7 @@
       left: 0;
       top: 0;
       width: 100%;
-      @include def-transition(left, 0.2s);
+      @include def-transition(all, 0.2s);
       .menu-left_item:hover &{
         //visibility: visible;
         left: 100%;
