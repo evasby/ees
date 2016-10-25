@@ -10,10 +10,12 @@
       left: 0;
       top: 0;
       width: 100%;
+      opacity: 0;
       @include def-transition(all, 0.2s);
       .menu-left_item:hover &{
         //visibility: visible;
         left: 100%;
+        opacity: 1;
       }
     }
   }
